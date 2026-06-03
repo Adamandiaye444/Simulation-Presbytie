@@ -43,9 +43,18 @@ L’interface propose des **boutons**, un **menu déroulant** et une **zone de d
 
 ### 1. Cloner le dépôt
 
+**SSH (recommandé)**
+
 ```bash
-git clone https://dmigit.uqtr.ca/technologies-immersives/eye-conditions-and-diseases.git
-cd eye-conditions-and-diseases
+git clone git@github.com:Adamandiaye444/Simulation-Presbytie.git
+cd Simulation-Presbytie
+```
+
+**HTTPS**
+
+```bash
+git clone https://github.com/Adamandiaye444/Simulation-Presbytie.git
+cd Simulation-Presbytie
 ```
 
 ### 2. Ouvrir le projet dans Unity
@@ -129,10 +138,12 @@ flowchart LR
 
 ---
 
-## Dépôt distant
+## Dépôt GitHub
+
+- **Dépôt** : [github.com/Adamandiaye444/Simulation-Presbytie](https://github.com/Adamandiaye444/Simulation-Presbytie)
 
 ```bash
-git remote add origin https://dmigit.uqtr.ca/technologies-immersives/eye-conditions-and-diseases.git
+git remote add origin git@github.com:Adamandiaye444/Simulation-Presbytie.git
 git branch -M main
 git push -u origin main
 ```
