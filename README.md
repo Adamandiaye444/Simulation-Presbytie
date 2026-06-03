@@ -36,6 +36,7 @@ L’interface propose des **boutons**, un **menu déroulant** et une **zone de d
 - [Unity Hub](https://unity.com/download) avec l’éditeur **6000.2.0b2** (ou version compatible Unity 6)
 - Package **OpenCV for Unity** (Asset Store) — non versionné dans ce dépôt (voir installation ci-dessous)
 - Environ **2 Go d’espace disque** (modèle ONNX ~400 Mo inclus)
+- **[Git LFS](https://git-lfs.github.com/)** — requis pour télécharger `midas.onnx` (> 100 Mo, hébergé via LFS sur GitHub)
 
 ---
 
@@ -43,9 +44,12 @@ L’interface propose des **boutons**, un **menu déroulant** et une **zone de d
 
 ### 1. Cloner le dépôt
 
+Installez Git LFS une fois (`brew install git-lfs` puis `git lfs install`), puis clonez :
+
 **SSH (recommandé)**
 
 ```bash
+git lfs install
 git clone git@github.com:Adamandiaye444/Simulation-Presbytie.git
 cd Simulation-Presbytie
 ```
