@@ -4,7 +4,7 @@
 
 Application **Unity 6** de simulation immersive des principaux troubles de la vision. Le projet permet d’observer une scène vidéo en temps réel tout en appliquant des filtres qui reproduisent différentes affections oculaires.
 
-Développé dans le cadre du cours **Technologies immersives** (UQTR).
+Développé dans le cadre d’un **projet de session** — cours **Technologies immersives** (UQTR).
 
 **Dépôt** : [github.com/Adamandiaye444/Simulation-Presbytie](https://github.com/Adamandiaye444/Simulation-Presbytie)
 
@@ -15,6 +15,7 @@ Développé dans le cadre du cours **Technologies immersives** (UQTR).
 | Question | Réponse |
 |----------|---------|
 | **Pour qui ?** | Étudiants, enseignants, développeurs curieux de la vision humaine |
+| **Contexte** | Projet de session — Technologies immersives (UQTR) |
 | **Objectif** | Sensibiliser aux troubles visuels en *voyant* leur effet sur une même scène |
 | **Comment ?** | Une vidéo de démonstration + une interface pour basculer entre les modes |
 | **Ce n’est pas…** | Un outil médical de diagnostic — uniquement une approximation pédagogique |
@@ -241,7 +242,7 @@ Ce projet est un **outil pédagogique de simulation**. Il ne remplace pas un dia
 
 ## Licence et crédits
 
-- Projet académique — **UQTR**, Technologies immersives (2025)
+- Projet de session — **UQTR**, Technologies immersives (2025)
 - OpenCV for Unity — licence Asset Store (à acquérir séparément)
 - MiDaS — modèle de profondeur monoculaire
 - Référence daltonisme : [BCGSC Color Blindness Simulator](https://mk.bcgsc.ca/colorblind/)
